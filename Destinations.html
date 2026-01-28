@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f5f9ff;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            color: #1e3a5f;
+        }
+
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            gap: 20px;
+        }
+
+        .destination-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            height: auto;
+            min-height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #afe96d;
+        }
+
+        .header-img {
+            height: 8vh;
+            margin-left: 20px;
+            padding: 2px;
+        }
+
+        .auth {
+            padding: 8px;
+        }
+
+        .auth button {
+            font-size: 16px;
+            padding: 5px 15px;
+            border-radius: 8px;
+            margin-left: 10px;
+            background-color: orangered;
+            color: #F1F8E9;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-img" src="./asset/images/logo.png" alt="">
+        <div class="auth">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+    </header>
+    <div class="main">
+        <h1>Explore Our Top Destinations</h1>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <img src="" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>The city of lights, known for its art, fashion, and culture.</p>
+            </div>
+            <div class="destination-card">
+                <img src="" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+                <p>A bustling metropolis blending tradition with cutting-edge technology.</p>
+            </div>
+            <div class="destination-card">
+                <img src="" alt="New York">
+                <h3>New York City, USA</h3>
+                <p>The city that never sleeps, famous for its skyline and vibrant culture.</p>
+            </div>
+            <div class="destination-card">
+                <img src="" alt="Sydney">
+                <h3>Sydney, Australia</h3>
+                <p>Home to the iconic Opera House and stunning beaches.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="cards">
+            <div>
+                <h2>Customizable Travel Packages</h2>
+                <p>Choose from a variety of travel packages tailored to your preferences and budget.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
