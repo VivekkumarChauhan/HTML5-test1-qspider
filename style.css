@@ -101,6 +101,41 @@ nav a {
 .dest { width: 150px; }
 .date { width: 150px; }
 .search-input { width: 250px; }
+ footer{
+            background: #1B5E20;
+            color: #ffffff;
+            padding: 30px;
+        }
+
+        .footer-content{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-section h3{
+            color: #A5D6A7;
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul{
+            list-style: none;
+        }
+
+        .footer-section li{
+            margin-bottom: 6px;
+        }
+
+        .footer-section a{
+            text-decoration: none;
+            color: #ddd;
+            font-size: 14px;
+        }
+
+        .footer-section a:hover{
+            color: #FF7043;
+        }
 
 @media (max-width: 576px) {
     .header {
